@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.lublin.wsei.java.cwiczenia.lab2fx.lab2javafx.HelloController">
    <children>
-      <Button fx:id="btnMain" layoutX="274.0" layoutY="188.0" mnemonicParsing="false" onAction="#onBtnAction" onDragDetected="#onBtnAction" style="-fx-background-color: black;" text="Kliknij mnie!" textFill="#ff0606" />
+      <Button fx:id="btnMain" layoutX="260.0" layoutY="78.0" mnemonicParsing="false" onAction="#onBtnAction" onDragDetected="#onBtnAction" style="-fx-background-color: black;" text="Kliknij mnie!" textFill="#ff0606" />
+      <TextField fx:id="txtLicznik" layoutX="199.0" layoutY="112.0" onAction="#onBtnAction" prefHeight="130.0" prefWidth="203.0" />
    </children>
 </AnchorPane>
